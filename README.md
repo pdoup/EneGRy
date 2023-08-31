@@ -31,7 +31,7 @@ This curated dataset is a valuable resource for anyone interested in conducting 
 ## Description
 
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Click to expand</summary>
   
   |Feature|Type|Unit|Description|
 | :------------ | :------------ | :------------ | :------------ |
