@@ -9,6 +9,7 @@ One of the key features of this dataset is that it contains data from renewable 
 
 In addition to the information mentioned earlier, this dataset also incorporates information about global markets. This means that it has the potential to uncover latent relationships between the energy sector, weather data, and market data in Greece and global markets. By analyzing this dataset, data analysts and scientists can gain a deeper understanding of how global market trends and events impact the energy sector in Greece. This makes the dataset an even more valuable resource for conducting exploratory data analysis or predictive tasks.
 
+The dataset is currently available in 3 formats: `CSV`, `JSON` and as an `Excel spreadsheet`
 ## Potential Uses
 
 - **Exploratory Data Analysis**: The dataset can be used to explore trends and patterns in the energy sector, weather data, and market data for Greece.
