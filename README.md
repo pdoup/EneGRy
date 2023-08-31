@@ -26,8 +26,6 @@ The data in this dataset was retrieved from multiple sources and APIs. These sou
 4. [tradingeconomics.com](https://tradingeconomics.com/)
 5. [transparency.entsoe.eu](https://transparency.entsoe.eu/)
 
-This curated dataset is a valuable resource for anyone interested in conducting analysis on the energy sector, weather data, and market data for Greece. It is available for download on this GitHub repository.
-
 ## Description
 
 <details>
