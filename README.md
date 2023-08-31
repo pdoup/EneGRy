@@ -1,5 +1,5 @@
 # EneGRy
-Time-series data combining multiple sources to explain the broader Greek energy market
+Time-series dataset combining multiple sources to explain the broader Greek energy market
 
 This repository contains a **curated time-series dataset** that combines **daily** data from the energy sector, weather data, and market data for Greece. The dataset spans from December 1st, 2020, to August 18th, 2023, and includes information on energy-related futures contracts, day-ahead energy market prices, and more.
 
