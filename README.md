@@ -97,12 +97,12 @@ The data in this dataset was retrieved from multiple sources and APIs. These sou
 If you use this dataset in your research or analysis, please cite it using the following entry:
 
 ```
-@misc{EneGRy,
+@misc{EneGRy2023,
   title={EneGRy},
   author={Panagiotis Doupidis},
   year={2023},
   publisher={GitHub},
-  howpublished={\url{[EnergyGR2020_2023](https://github.com/pdoup/EneGRy)}},
+  howpublished={\url{https://github.com/pdoup/EneGRy}},
 }
 ```
 
