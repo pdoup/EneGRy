@@ -3,9 +3,9 @@ Time-series data combining multiple sources to explain the broader Greek energy 
 
 This repository contains a **curated time-series dataset** that combines **daily** data from the energy sector, weather data, and market data for Greece. The dataset spans from December 1st, 2020, to August 18th, 2023, and includes information on energy-related futures contracts, day-ahead energy market prices, and more.
 
-The dataset is a valuable resource for data analysts and scientists interested in conducting exploratory data analysis or predictive tasks. For example, the dataset can be used to predict tomorrow's energy demands or wholesale prices.
+The dataset is set to serve as a valuable resource for data analysts and scientists interested in conducting exploratory data analysis or predictive tasks. For example, the dataset can be used to predict tomorrow's energy demands or wholesale prices.
 
-One of the key features of this dataset is that it contains data from renewable energy sources. This makes it an excellent resource for gaining insights into the renewable energy market in Greece.
+One of the key features of this dataset is that it contains data from renewable energy sources. This, along with the comprehensive daily weather condition data, makes it an excellent resource for gaining insights into the renewable energy market in Greece.
 
 In addition to the information mentioned earlier, this dataset also incorporates information about global markets. This means that it has the potential to uncover latent relationships between the energy sector, weather data, and market data in Greece and global markets. By analyzing this dataset, data analysts and scientists can gain a deeper understanding of how global market trends and events impact the energy sector in Greece. This makes the dataset an even more valuable resource for conducting exploratory data analysis or predictive tasks.
 
@@ -45,9 +45,9 @@ This curated dataset is a valuable resource for anyone interested in conducting 
 |heat_index_min|int|`°C`|Minimum recorded HI ; station `LGAV`, Spata, Attica, Greece. (HI: human-perceived equivalent temperature)|
 |heat_index_max|int|`°C`|Maximum recorded HI ; station `LGAV`, Spata, Attica, Greece.|
 |heat_index_avg|float|`°C`|Daily average HI ; station `LGAV`, Spata, Attica, Greece.|
-|rh_min|int|`percentage (%)`|Minimum relative-humidity ; station `LGAV`, Spata, Attica, Greece. Ranges from `0` to `100`|
-|rh_max|int|`percentage (%)`|Maximum relative-humidity ; station `LGAV`, Spata, Attica, Greece. Ranges from `0` to `100`|
-|rh_avg|float|`percentage (%)`|Daily average relative-humidity ; station `LGAV`, Spata, Attica, Greece. Ranges from `0` to `100`|
+|rh_min|int|`%`|Minimum relative-humidity ; station `LGAV`, Spata, Attica, Greece. Ranges from `0` to `100`|
+|rh_max|int|`%`|Maximum relative-humidity ; station `LGAV`, Spata, Attica, Greece. Ranges from `0` to `100`|
+|rh_avg|float|`%)`|Daily average relative-humidity ; station `LGAV`, Spata, Attica, Greece. Ranges from `0` to `100`|
 |pressure_avg|float|`hPa/mbar`|Daily average atmospheric pressure ; station `LGAV`, Spata, Attica, Greece|
 |vis_avg|int|`km (kilometer)`|Daily average visibility ; station `LGAV`, Spata, Attica, Greece|
 |wdir_avg|int|`degrees (°)`|Daily average wind direction; station `LGAV`, Spata, Attica, Greece|
@@ -72,25 +72,25 @@ This curated dataset is a valuable resource for anyone interested in conducting 
 |renewable_energy_production|int|`MWh`|Total power produced by renewable energy sources `GR`|
 |day_ahead_market_avg_clearing_price|float|`EUR / MWh`|For every market time  unit (typically `1H`) the day-ahead prices in each bidding zone (Currency/MWh) `GR`. The hourly clearing prices are aggregated to a daily average, meant to represent the daily mean wholesale price|
 |wind_energy_index|float|`USD`|Tracks the performance of publicly traded companies in the wind energy sector as well as those businesses that do not produce energy but make most of their revenues by providing goods and services to the wind energy industry.|
-|wind_energy_index_pct_change|float|`percentage (%)`|Daily shift in the wind index expressed as a percentage.|
+|wind_energy_index_pct_change|float|`%`|Daily shift in the wind index expressed as a percentage.|
 |wind_energy_index_change|float|-|Daily shift in the wind index expressed as the numeric difference (`current_index` - `previous_index`).|
 |solar_energy_index|float|`USD`|Tracks the performance of publicly traded companies in the solar energy sector as well as those businesses that do not produce energy but make most of their revenues by providing goods and services to the solar energy industry.|
-|solar_energy_index_pct_change|float|`percentage (%)`|Daily shift in the solar index expressed as a percentage.|
+|solar_energy_index_pct_change|float|`%`|Daily shift in the solar index expressed as a percentage.|
 |solar_energy_index_change|float|-|Daily shift in the solar index expressed as the numeric difference (`current_index` - `previous_index`).|
 |heating_oil_futures_US|float|`USD`|Heating oil, also known as No. 2 fuel oil futures.|
-|heating_oil_futures_US_pct_change|float|`percentage (%)`|Daily shift in the heating oil futures contracts expressed as a percentage.|
+|heating_oil_futures_US_pct_change|float|`%`|Daily shift in the heating oil futures contracts expressed as a percentage.|
 |heating_oil_futures_US_change|float|-|Daily shift in the heating oil futures contracts prices expressed as the numeric difference (`current` - `previous`).|
 |carbon_permits_EU|float|`EUR`|Sourced from the European Union Emissions Trading System (EU ETS). Allowances for carbon emissions are first allocated considering EU directives for the maximum amount of greenhouse gases that can be emitted (can be traded).|
-|carbon_permits_EU_pct_change|float|`percentage (%)`|Daily shift in the allowances price for carbon emissions expressed as a percentage.|
+|carbon_permits_EU_pct_change|float|`%`|Daily shift in the allowances price for carbon emissions expressed as a percentage.|
 |carbon_permits_EU_change|float|-|Daily shift in the allowances price for carbon emissions expressed as the numeric difference (`current` - `previous`).|
 |coal_futures|float|`USD`|Newcastle coal futures. The standard GC Newcastle contact listed on Intercontinental Exchange (ICE) weights 1,000 metric tonnes.|
-|coal_futures_pct_change|float|`percentage (%)`|Daily shift in the coal futures contracts expressed as a percentage.|
+|coal_futures_pct_change|float|`%`|Daily shift in the coal futures contracts expressed as a percentage.|
 |coal_futures_change|float|-|Daily shift in the coal futures contracts prices expressed as the numeric difference (`current` - `previous`).|
 |natural_gas_eu_dutch_ttf_prices|float|`EUR/MWh`|Dutch TTF Gas. European benchmark for gas prices stipulating physical delivery as part of the agreement.|
-|natural_gas_eu_dutch_ttf_prices_pct_change|float|`percentage (%)`|Daily shift in the Dutch TTF Gas contracts expressed as a percentage.|
+|natural_gas_eu_dutch_ttf_prices_pct_change|float|`%`|Daily shift in the Dutch TTF Gas contracts expressed as a percentage.|
 |natural_gas_eu_dutch_ttf_prices_change|float|-|Daily shift in the Dutch TTF Gas contracts prices expressed as the numeric difference (`current` - `previous`).|
 |wti_crude_oil_futures|float|`USD/Bbl`|West Texas Intermediate (WTI) benchmark for US crude.|
-|wti_crude_oil_futures_pct_change|float|`percentage (%)`|Daily shift in the WTI futures contracts expressed as a percentage.|
+|wti_crude_oil_futures_pct_change|float|`%`|Daily shift in the WTI futures contracts expressed as a percentage.|
 |wti_crude_oil_futures_change|float|-|Daily shift in the WTI futures contracts expressed as the numeric difference (`current` - `previous`).|  
 </details>
 
